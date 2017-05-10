@@ -12,11 +12,48 @@ Next week:
 
 ## what is server side scripting?
 
+I hope that we can start to answer this question over the next few months. This
+is a big topic, and we won't be able to cover everything in this class, but I
+hope to give you a good start.
+
+Before we can answer that question we have a few other other questions to
+answer.
+
 ## what is a scripting language?
 
 "I think to most people, scripting is like obscenity. I can't define it, but
 I'll know it when I see it"
 > Larry Wall
+
+A scripting language is actually difficult to define(many people will disagree
+with this), but in general languages that are considered to be scripting languages are:
+- interpreted
+- used for writing 'smaller' programs
+- act as 'glue' call a larger program, take the output of that larger program
+  and pass it to another larger program for example.
+- extend the functionality of a complex program written in a compiled language
+- fast to learn and easy to write code in
+- dynamic
+
+languages that are generally considered scripting languages range from highly
+specific languages like awk, to general purpose programming languages like
+python.
+
+## what is a server?
+
+by this point in the course i suspect most of you have at least some idea of
+what a server is, if you are unsure, we are going to fill in some of the gaps
+during the course.
+
+this is of course going to come up a lot, many times every week. for now
+when i say server i may be referring to a hardware server, a powerful computer
+designed to serve data to clients(and other servers). but i may also be
+referring to a software server, a piece of software intended to serve documents
+to clients(and other servers). i will try to always make it clear which i am
+talking about.
+
+We will come back to this in week four when we actually write our first software
+server in nodejs.
 
 ## NodeJS
 
