@@ -78,14 +78,14 @@ if used responsibly they aren't too bad, and you have already been using them.
 because we are going to start exploring events, and all things asynchronous in
 more detail next week i won't go into too much detail regarding how they work now. for now think of a
 callback function as a way of telling your code to perform a task, and when that
-task is finished do something do something else. for example: put all of these invitations in envelopes,
+task is finished do something else, for example: put all of these invitations in envelopes,
 and when you are done putting them in envelopes take them to the post office and
 mail them. while this is happening your code can continue doing other useful
 things. you have seen these in event handlers, where you call a function when a
 certain event is triggered, like clicking a button. as i said in week one, this is essentially how
 event-driven programming works. only in this case instead of waiting for an
 event that is direct user input, maybe the event is reading a file. when your
-file is read into a memory, do something.
+file is read into memory, do something.
 
 when we look at the fs module in a moment we are going to talk about an error
 first callback, where our first parameter passed to our callback is our error
@@ -98,10 +98,11 @@ async/await**)
 ## filesystem module
 
 nodejs comes with many useful core modules. among them is the fs(short for filesystem) 
-module. the fs module allows you read and write files, create and remove
+module. the fs module allows you to read and write files, create and remove
 directories, watch a file or directory for changes... the fs module allows you
-to interact with a machine's filesystem on any operating system that node runs
-on.
+to perform these interactions with a machine's filesystem on any operating system that node runs
+on, so most of the time code that works in c9 will work on your windows machine at
+home too.
 
 like many of the core node modules fs has asynchronous and synchronous methods.
 we are going to look at the asynchronous methods, using callbacks, for
