@@ -1,3 +1,7 @@
+/*
+ * this file will not produce the desired results when you run it
+ * see if you can figure out why?
+*/
 const fs = require('fs')
 
 let data = fs.readFile('./samptext.txt', (err, data) => {
