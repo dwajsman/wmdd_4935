@@ -26,7 +26,7 @@ that node can be single threaded and still work with I/O asynchronously. i also
 mentioned that the most
 common alternative to this solution is using a language that allows you to
 create new threads. what i left out is that this is really the only way to handle asynchronous
-I/O. Your operating system(OS) is really good working with threads, so node can
+I/O. Your operating system(OS) is really good at working with threads, so node can
 be single threaded by handing off some operations to the system kernel. This is
 really clever and makes our lives as node developers much easier.
 
@@ -59,11 +59,11 @@ quantity from your local garden supply store. when your truck load of manure
 arrives there isn't room for the whole thing in your backyard, just dumping it
 all at once would kill your garden, so you have the delivery people dump your
 manure on your driveway(your neighbors love you for this). you then use a wheelbarrow 
-to move smaller amounts, amounts of manure you can work with, one load at a
+to move smaller amounts of manure you can work with, one load at a
 time. 
 
 pipes, or piping is a way to pass a stream of data from one source to another.
-passing information from an api into file being written asynchronously for
+passing information from an api into a file being written asynchronously for
 example, piping a read stream into a write stream.
 
 above i mention read streams and write streams, node has four types of streams.
