@@ -8,13 +8,8 @@ this week
   - package.json
   - npm (node package manager)
 - intro to HTTP
-<<<<<<< HEAD
   - HTTP methods
   - the node http module
-=======
-  HTTP methods
-  the node http module
->>>>>>> f2c23c7d0cbad26b480b5385f9c762fb5aa077e3
 - assignment one, mini CMS/Static Site Generator
 
 next week
@@ -44,7 +39,6 @@ manage project dependencies, for now that is what we are going to focus on.
 ### first steps with npm
 
 to get started with NPM create a new directory for a test project to live in.  
-<<<<<<< HEAD
 `mkdir new-proj`  
 and cd into it  
 `cd new-proj`  
@@ -55,15 +49,6 @@ after entering
 `npm init`  
 just hit enter to accept the defaults for now. you can also enter  
 `npm init -y`  
-=======
-`mkdir new-proj` and cd into it `cd new-proj`  
-now you can use NPM to create a package.json file, this contains some
-information about a javascript project, dependencies, git repository,
-licensing... you will be taken through a few questions about your new project
-after entering `npm init` just hit enter to accept the defaults for now. you can also enter `npm init -y` 
->>>>>>> f2c23c7d0cbad26b480b5385f9c762fb5aa077e3
-to accept the defaults automatically.
-
 if you use `ls` to see what is in your directory you should have a package.json
 file, open it up in a text editor and take a look at it.
 
@@ -71,18 +56,12 @@ file, open it up in a text editor and take a look at it.
 
 dependencies have two categories. developer dependencies, tools that you use to
 help you test your project ie, linters, a testing server... and dependencies
-<<<<<<< HEAD
 that your software actually needs.  
 `npm install chokidar --save`  
 this installs chokidar as a module that we can use in our project.  
 `npm install serve --save-dev`  
-this installs serve as a developer dependency, take another look
-=======
-that your software actually needs. `npm install chokidar --save` this installs
-chokidar as a module that we can use in our project. `npm install serve
---save-dev` this installs serve as a developer dependency, take another look
->>>>>>> f2c23c7d0cbad26b480b5385f9c762fb5aa077e3
-at package.json both of the modules should have been added to your package.json
+this installs 'serve' as a developer dependency, take another look at package.json 
+both of the modules should have been added to your package.json
 file along with a version number.
 
 if you run `ls` again you will notice that a new directory 'node_modules' has
@@ -91,13 +70,9 @@ well as any dependencies that they might have live.
 
 if you want to work on this project with another person they only need your
 package.json to get set up. they create a directory git clone your package.json
-<<<<<<< HEAD
 and run  
 `npm install`  
 from within the directory and they are ready to go.
-=======
-and run `npm install` from within the directory and they are ready to go.
->>>>>>> f2c23c7d0cbad26b480b5385f9c762fb5aa077e3
 
 we won't cover everything that can be done with package.json and NPM in this
 class, but NPM is well documented and there are numerous tutorials available for
@@ -108,12 +83,9 @@ everything that we don't cover during this term.
 
 ### yarn
 
-<<<<<<< HEAD
 yarn is an alternative package manager created by facebook. when you are looking
-=======
-yarn is an alternative package manager created by facebook, when you are looking
->>>>>>> f2c23c7d0cbad26b480b5385f9c762fb5aa077e3
-at tutorials or projects on github you may encounter yarn.  
+at tutorials or projects on github you may encounter yarn, they offer most of
+the same functionality with only slightly different commands.  
 [yarn](https://yarnpkg.com/en/)
 
 ## HTTP methods
@@ -123,13 +95,8 @@ you in the face everyday, but most of you probably don't pay much attention to
 it. take a look at your browser, specifically the text area where the address(URL) to
 this page is. HTTPS (we will talk about the S in a second) is likely right at
 the beginning of the address. HTTP is 'Hypertext Transfer Protocol'. It is a
-<<<<<<< HEAD
 request response protocol that facilitates communication between a client and a
 server. the 's' in HTTPS is for 'secure' and indicates that the connection is
-=======
-request response protocol that facilitates communication between a client a
-server. the 's' in HTTPS is for secure and indicates that the connection is
->>>>>>> f2c23c7d0cbad26b480b5385f9c762fb5aa077e3
 encrypted using TLS(Transport Layer Security) or SSL(Secure Socket Layer).
 
 ### methods
@@ -195,14 +162,8 @@ status codes
 
 ### end
 the end function tells the recipient of our response that this is the end of the
-<<<<<<< HEAD
 data being sent. if you don't include the end function, the client waits for more data. 
 depending on the client this might result in some sort of time out error.
-=======
-data being sent. if you don't include the end function, the client waits keeps
-waiting for more data. depending on the client this might result in some sort of
-time out error.
->>>>>>> f2c23c7d0cbad26b480b5385f9c762fb5aa077e3
 
 ### listen
 
