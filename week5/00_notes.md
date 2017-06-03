@@ -75,6 +75,7 @@ popular in the last year and I encourage you to at least look at both of the
 links below.
 
 [GraphQL](http://graphql.org/)
+
 [Falcor](https://netflix.github.io/falcor/)
 
 ### additional resources
