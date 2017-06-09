@@ -104,7 +104,7 @@ for all of the below examples assume that we are using a 'user' collection.
 
 #### update
 
-`db.user.update({name: 'Richard'}, $set {email: 'richard@email.com'})`
+`db.user.update({name: 'Richard'}, {$set: {email: 'richard@email.com'}})`
 
 #### delete
 
