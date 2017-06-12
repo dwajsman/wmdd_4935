@@ -12,7 +12,7 @@ today
 
 next week
 
-- intro to python
+- intro to hapijs
 
 ## mongodb
 
@@ -54,6 +54,8 @@ atlas is well documented, as always if you get stuck the first place you should
 look is the documentation.
 
 [mongodb atlas docs](https://docs.atlas.mongodb.com/)
+
+[mongodb atlas getting started youtube tutorials](https://www.youtube.com/watch?v=SIiVjgEDI7M&list=PL4RCxklHWZ9smTpR3hUdq53Su601yCPLj)
 
 ## mongodb and nodejs
 

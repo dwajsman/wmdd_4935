@@ -1,4 +1,4 @@
-# assignment num 2
+# assignment 02
 
 using the mongo shell and mongodb atlas test queries for a users database.
 
@@ -18,13 +18,14 @@ in their 20s for example.
 
 ## submission guidelines.
 
-submit at least one screenshot that shows that you have connected the mongo show
-to a database on mongo atlas.
+submit at least one screenshot that shows that you have connected the mongo shell to a database on mongo atlas.
 
 submit a .txt file with the queries you used to perform the operations on your
 database, only the successful queries.
 
-submit both using your hand in materials folder in student share.
+submit both using your hand in materials folder in student share. one submission
+per team, please include a .txt file that includes team members names, email addresses
+and student numbers.
 
 ## due date June 15, before the start of class next week.
 

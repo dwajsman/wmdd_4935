@@ -4,6 +4,22 @@
 [learning node 2nd ed](http://shop.oreilly.com/product/0636920046936.do)  
 [node.js in action 2nd ed](https://www.manning.com/books/node-js-in-action-second-edition)
 
+## es6 resources
+
+es6 brought several important changes to the JavaScript programming language and
+the JavaScript community at large adopted the new features and syntax incredibly quickly. 
+if you feel like you aren't entirely comfortable with at least some of the most
+significant changes watching the quick video tutorials below should help get
+you up to speed, for more in depth explanations and even more modern features
+the book below is a good resource.
+
+when in doubt ask questions.
+
+[Exploring ES2016 and ES2017 by Dr. Axel Rauschmayer](http://exploringjs.com/es2016-es2017/index.html)
+
+[laracasts crash course in es6](https://laracasts.com/series/es6-cliffsnotes)
+
+
 ## command line resources
 
 if you have little to no previous command line experience it is a good idea to
