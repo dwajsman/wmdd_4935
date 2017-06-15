@@ -4,6 +4,9 @@
 [learning node 2nd ed](http://shop.oreilly.com/product/0636920046936.do)  
 [node.js in action 2nd ed](https://www.manning.com/books/node-js-in-action-second-edition)
 
+## callbacks and asynchronous javascript
+[callback hell](http://callbackhell.com/)
+
 ## es6 resources
 
 es6 brought several important changes to the JavaScript programming language and
