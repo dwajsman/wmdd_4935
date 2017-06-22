@@ -85,12 +85,10 @@ with moving data to and from a database. CRUD, is an acronym for the four basic
 functions of persistent storage, four functions that correspond to the four HTTP
 methods that we will be focusing on.
 
-`
 CREATE  |  POST  
 READ    |  GET  
 UPDATE  |  PUT  
 DELETE  |  DELETE  
-`
 
 ### crud operations in mongodb
 

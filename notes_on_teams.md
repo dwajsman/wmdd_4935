@@ -12,3 +12,20 @@ names, student numbers and email addresses of every team member.
 
 Your team developer will be the team leader, but I expect every team member to
 contribute to the assignments.
+
+## teams
+- Alexandre and Artur
+- Amanda and Denise
+- Amarjot and Vivek
+- Andre and Fernanda
+- Ashwin and Pushpinder
+- Daniel and Roberto
+- Depika S, Urmila and Kanchan
+- Depika B and Chirag
+- Prabhjot, Jagdeep and Prabhdeep
+- Rajbir, Sneha and Ramanjot
+- Shakti and Harleen
+- Kulwinder and Sukwinder
+- Tiago and Ian
+- William and Dimitria
+
