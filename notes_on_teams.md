@@ -16,12 +16,11 @@ contribute to the assignments.
 ## teams
 - Alexandre and Artur
 - Amanda and Denise
-- Amarjot and Vivek
+- Amarjot, Vivek and Chirag
 - Andre and Fernanda
-- Ashwin and Pushpinder
+- Ashwin, Pushpinder and Deepika B
 - Daniel and Roberto
-- Depika S, Urmila and Kanchan
-- Depika B and Chirag
+- Deepika S, Urmila and Kanchan
 - Prabhjot, Jagdeep and Prabhdeep
 - Rajbir, Sneha and Ramanjot
 - Shakti and Harleen
