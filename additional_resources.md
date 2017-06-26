@@ -1,10 +1,23 @@
 # additional resources
 
 ## books on node
-[learning node 2nd ed](http://shop.oreilly.com/product/0636920046936.do)  
+
+[learning node 2nd ed](http://shop.oreilly.com/product/0636920046936.do)
+
 [node.js in action 2nd ed](https://www.manning.com/books/node-js-in-action-second-edition)
 
+## books on python
+
+[think python](http://shop.oreilly.com/product/0636920045267.do) this is both a
+good introductory python book and a good introductory computer science text
+book.
+
+[flask web development](http://shop.oreilly.com/product/0636920031116.do) a
+little out of date, but still a pretty good introduction to one of the most
+popular python web frameworks [flask](http://flask.pocoo.org/)
+
 ## callbacks and asynchronous javascript
+
 [callback hell](http://callbackhell.com/)
 
 ## es6 resources
@@ -28,10 +41,22 @@ when in doubt ask questions.
 if you have little to no previous command line experience it is a good idea to
 go through one of these tutorials
 
-[learn enough command line to be dangerous](https://www.learnenough.com/command-line-tutorial)  
+[learn enough command line to be dangerous](https://www.learnenough.com/command-line-tutorial)
+
 [linux journey](https://linuxjourney.com/lesson/the-shell)
 
 ## other
+
+## other programming books
+
+[clean code](https://www.amazon.ca/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+
+[grokking algorithms](https://www.manning.com/books/grokking-algorithms)
+
+[think like a programmer, python edition](https://www.nostarch.com/thinkpython)
+
+## videos
+
 Lin Clark's JSConf presentation on WebAssembly provides a pretty good high-level
 explanation of how a JavaScript engine works, specifically the JIT(just in
 time)compiler.
