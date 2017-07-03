@@ -1,7 +1,9 @@
 const monk = require('monk')
 require('dotenv').config()
 
+// get the DBURL value 
 const db = monk(process.env.DBURL)
+// get or create a collection in mongo
 const students = db.get('students')
 
 module.exports = [
@@ -31,7 +33,7 @@ module.exports = [
     {
     method: 'GET',
     path: '/students/{p*}',
-    handler: queryName 
+    handler: queryName
   }
 ]
 
