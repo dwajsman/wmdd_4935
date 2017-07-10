@@ -10,12 +10,11 @@ const students = db.get('students')
 
 // schema to test new objects against
 // for now think of this like a check list for creating a new student
-const schema = Joi.object().keys({
-  _id: Joi.number().min(3).required(),
+const studentSchema = Joi.object().keys({
   name: Joi.string(),
   classes: Joi.array().items(Joi.string()),
   grades: Joi.array().items(Joi.string())
-})
+}).and('name', 'classes', 'grades')
 
 module.exports = [
   {
@@ -30,13 +29,18 @@ module.exports = [
     path: '/students',
     handler: async (request, reply) => {
       let allStudents = await students.find()
-      return reply(allStudents) 
+      return reply(allStudents)
     }
   },
   {
     method: 'POST',
     path: '/students',
-    handler: createNewStudent 
+    config: {
+      validate: {
+        payload: studentSchema
+      }
+    },
+    handler: createNewStudent
   },
   {
     method: 'PUT',
@@ -47,26 +51,33 @@ module.exports = [
     method: 'DELETE',
     path: '/students',
     handler: async (request, reply) => {
-      let removed = await students.remove({_id: request.payload['_id']}, {multi: false})
-      return reply ().code(204)
+      try {
+        let removed = await students.remove({_id: request.payload['_id']}, {multi: false})
+        return reply ().code(204)
+      } catch (err) {
+        console.error(err)
+      }
     }
   }
 ]
 
 async function createNewStudent (request, reply) {
-  let lastStudentNum = await students.find({}, {limit: 1, sort: {'_id': -1}})
-  let newStuObject = request.payload
-  newStuObject['_id'] = lastStudentNum[0]['_id'] + 1
-  let results = Joi.validate(newStuObject, schema)
-  if (results.error === null) {
+  try {
+    let lastStudentNum = await students.find({}, {limit: 1, sort: {'_id': -1}})
+    let newStuObject = request.payload
+    newStuObject['_id'] = lastStudentNum[0]['_id'] + 1
     let newStudent = await students.insert(newStuObject)
     return reply(newStudent).code(201)
-  } else {
-    return reply('error').code(400)
+  } catch (err) {
+    console.error(err)
   }
 }
 
 async function updateStudent (request, reply) {
-  let studentToUpdate = await students.update({_id: request.payload['_id']}, {$set: request.payload})
-  return reply(request.payload).code(200)
+  try {
+    let studentToUpdate = await students.update({_id: request.payload['_id']}, {$set: request.payload})
+    return reply(request.payload).code(200)
+  } catch (err) {
+    console.error(err)
+  }
 }
