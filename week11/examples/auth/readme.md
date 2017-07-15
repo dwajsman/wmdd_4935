@@ -11,10 +11,11 @@ also test this with [postman](https://www.getpostman.com/). since i have used
 httpie a few times now i am going to use postman for this.
 
 to test the authenticated route in postman a header needs to be added, click on
-the 'headers' menu and add 'Autherization' as the key and 'Bearer secret' as the
+the 'headers' menu and add 'Authorization' as the key and 'Bearer secret' as the
 value, just like the image below.
 
 ![postman image](./pman.png)
+
 
 after adding the header click SEND, and if everything works you should see the
 isAuthenticated: yes object like the image.
