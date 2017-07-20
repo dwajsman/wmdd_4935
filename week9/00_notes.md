@@ -30,6 +30,8 @@ you need to use in production.
 
 as always the first place you should visit is the [documentation](https://automattic.github.io/monk/)
 
+[async await tutorial](https://tutorialzine.com/2017/07/javascript-async-await-explained)
+
 ## dotenv
 
 [dotenv](https://www.npmjs.com/package/dotenv) is a module that allows you to
