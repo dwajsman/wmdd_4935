@@ -29,11 +29,11 @@ code an API with the described functionality below:
 
     GET, get a list of books this could include an optional limit(get the first
     5 books...)
+    POST, add a book to your database
 
     elements: /books/{book id(isbn or unique id of some kind)}
 
     GET, get an individual book
-    POST, add a book to your database
     PUT/PATCH, update the information about a book
     DELETE, delete a book
 
@@ -109,12 +109,12 @@ add users to your API.
     /users
 
     GET, get a list of all users
+    POST, create a new user
 
     elements: /users/{id}
 
     GET, get an individual users
     PUT/PATCH, update a user
-    POST, create a new user
     DELETE, delete a user
 
     queries:
