@@ -16,3 +16,17 @@ http.createServer((req, res) => {
     res.end(JSON.stringify({'response': 'hello'}))
 }).listen(process.env.PORT, process.env.IP)
 ```
+
+and in hapi:
+
+```javascript
+server.connection({
+    port: process.env.PORT,
+    host: process.env.IP,
+    routes: {
+        cors: true
+    }
+})
+```
+
+cors is cross-origin resource sharing more [here](https://enable-cors.org/)
