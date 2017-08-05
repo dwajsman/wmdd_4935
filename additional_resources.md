@@ -47,6 +47,9 @@ go through one of these tutorials
 
 ## other
 
+## nodejs in 2017
+[risingstack, this is what nodejs is used for in 2017](https://blog.risingstack.com/what-is-node-js-used-for-2017-survey/)
+
 ## other programming books
 
 [clean code](https://www.amazon.ca/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
