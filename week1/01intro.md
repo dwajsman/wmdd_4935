@@ -35,21 +35,21 @@ with this), but in general languages that are considered to be scripting languag
 - fast to learn and easy to write code in
 - dynamic
 
-languages that are generally considered scripting languages range from highly
+Languages that are generally considered scripting languages range from highly
 specific languages like awk, to general purpose programming languages like
 python.
 
-## what is a server?
+## What is a server?
 
-by this point in the course i suspect most of you have at least some idea of
+By this point in the course I suspect most of you have at least some idea of
 what a server is, if you are unsure, we are going to fill in some of the gaps
 during the course.
 
-this is of course going to come up a lot, many times every week. for now
-when i say server i may be referring to a hardware server, a powerful computer
-designed to serve data to clients(and other servers). but i may also be
+This is of course going to come up a lot, many times every week. for now
+when I say server I may be referring to a hardware server, a powerful computer
+designed to serve data to clients(and other servers). but I may also be
 referring to a software server, a piece of software intended to serve documents
-to clients(and other servers). i will try to always make it clear which i am
+to clients(and other servers). I will try to always make it clear which I am
 talking about.
 
 We will come back to this in week four when we actually write our first software
@@ -57,17 +57,17 @@ server in nodejs.
 
 ## NodeJS
 
-in the class the language that we will be using is JavaScript and JavaScript can
+In the class the language that we will be using is JavaScript and JavaScript can
 be run a server(or on your local machine (without a browser)) using NodeJS.
 
 > Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
 >> [nodejs.org](https://nodejs.org/en/)
 
-the above description on the NodeJS site is pretty brief, but there are still a few things that we need to unpack in this description.
+The above description on the NodeJS site is pretty brief, but there are still a few things that we need to unpack in this description.
 
 ### v8 JavaScript engine
 
-the description above specifically says 'Chrome's V8 JavaScript engine.' As you
+The description above specifically says 'Chrome's V8 JavaScript engine.' As you
 may have guessed NodeJS uses the same JavaScript engine as Chrome. If you google
 JavaScript engine you will quickly discover that there are a few of them. But
 what is a JavaScript engine?
@@ -83,14 +83,14 @@ code that works on your Android phone probably won't work on your MacBook Pro,
 but JavaScript running on a server can be accessed from those devices as well as
 many others. There are JavaScript engines that make it possible to run
 JavaScript on many devices now, from powerful servers, to inexpensive
-microcontrollers, we will of course be focusing on the server and therefor
+microcontrollers, we will of course be focusing on the server and therefore
 NodeJS and the V8 engine.
 
 The V8 engine is an open source project and if you are comfortable with C++ you
 can take a look at the source code, or even incorporate it into your own
 project. [V8 github repo](https://github.com/v8/v8)
 
-### event-driven, non-blocking
+### Event-driven, non-blocking
 
 We are going to come back to these two concepts throughout the course, but for
 now we will continue with introductory or broad strokes definitions.
@@ -122,7 +122,7 @@ popularity.
 
 ### NPM
 
-we will come back to this very soon, for now NPM is the *Node Package Manager* and
+We will come back to this very soon, for now NPM is the *Node Package Manager* and
 it is a handy tool for installing modules, or packages (programs, functions...)
 that other developers have written that make writing software much faster. It
 likely comes as no surprise that there are many tasks that need to be done
